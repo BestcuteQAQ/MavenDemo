@@ -37,4 +37,25 @@ public class Number {
             System.out.println();
         }
     }
+
+    //    求100以内素数
+    @Test
+    public void Demo3(){
+        //使用外层循环来控制1-100的数据的遍历
+        for(int i = 1 ; i <= 100 ; i++){
+            //素数就是除1及其本身外不能被其他整数整除
+            int j = 2;
+            while(i > j){
+                //如果可以被小于他的数据整除，表示该数不是素数，跳出循环
+                if(i % j == 0){
+                    break;
+                }
+                j++;
+            }
+            //如果没有找到比其小的数据可以整除，则表示该数是素数
+            if(i == j){
+                System.out.print(i+" ");
+            }
+        }
+    }
 }
