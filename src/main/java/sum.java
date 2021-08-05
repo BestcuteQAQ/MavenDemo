@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 /**
  * @author wyz
  * @create 2021-07-31 20:35
@@ -26,5 +28,10 @@ public class sum {
                         ziliao(1)+
                             shuliang(1);
         System.out.println(price);
+    }
+    @Test
+    public void sumNumber(){
+        int a = 47 +105 + 13 + 22 +45 +29+ 24;
+        System.out.println(a);
     }
 }
