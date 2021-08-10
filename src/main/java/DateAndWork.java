@@ -32,7 +32,6 @@ public class DateAndWork {
             System.out.println("第"+ DigitUtil.convertString(day)+"天："+Today);
 
 //比较天数
-//            System.out.print("教招:"+(teacherDate.getTime() - today.getTime()) / (24 * 60 * 60 * 1000)+"天 ");
             System.out.println("三支一扶:"+(date0.getTime() - today.getTime()) / (24 * 60 * 60 * 1000)+"天 ");
             System.out.print("国考:"+(date1.getTime() - today.getTime()) / (24 * 60 * 60 * 1000)+"天 ");
             System.out.print("山东省考:"+(date2.getTime() - today.getTime()) / (24 * 60 * 60 * 1000)+"天 ");

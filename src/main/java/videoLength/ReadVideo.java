@@ -7,7 +7,7 @@ import java.io.File;
 public class ReadVideo {
 
     public static void main(String[] args){
-        File source = new File("C:\\猫哥行测\\猫哥的行测理论课\\新建文件夹\\");
+        File source = new File("C:\\猫哥行测\\猫哥的行测理论课\\");
         Encoder encoder = new Encoder();
         File[] file = source.listFiles();
         long sum =0;
